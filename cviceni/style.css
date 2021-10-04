@@ -15,3 +15,73 @@ html {
     dark: #003322;
     semi-transparent: #40bf9599;
 */
+
+main {
+    padding: 1rem;
+    background-color: #40bf9599;
+}
+
+section {
+    background-color: #40bf95;
+    padding: 1rem;
+    border-bottom: 1px dotted #003322;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flow-root;
+}
+
+header {
+    background-image: url("https://picsum.photos/1200/300");
+    min-height: 300px;
+    padding: 2rem 4rem;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+body {
+    margin: 0;
+    margin: auto;
+    max-width: 60rem;
+    font-family: sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline
+}
+
+nav a {
+    padding: 1rem;
+    background-color: #40bf9599;
+    text-decoration: none;
+    font-weight: bold;
+    color: #003322;
+  }
+
+nav :hover {
+    background-color: #003322;
+    color: #40bf9599;
+
+}
+
+h3 {
+    clear: both;
+}
+
+section img {
+    float: left;
+    max-width: 175px;
+    margin-right: 1rem;
+}
+
+main img {
+    max-width: 100%; 
+    height: auto; 
+  }
